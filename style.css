@@ -305,3 +305,19 @@ h4 {
 .novidades-info .info .editorial .editorial-redes-sociais img {
     margin-right: 20px;
 }
+
+/* Rodapé */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E0E1E1;
+    width: 100%;
+    padding: 40px 120px;
+}
+
+footer .logo-footer {
+    border: 1px solid black;
+    padding: 10px 30px;
+}
