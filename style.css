@@ -294,24 +294,27 @@ h4 {
 .btn:hover {
     background-color: #8d8d8d;
 }
+
 .button {
     display: flex;
     justify-content: end;
 }
-.button button{
+
+.button button {
     background: darkgray;
     border: 0;
     padding: 5px;
     border-radius: 5px;
 }
-.button button:hover{
+
+.button button:hover {
     background: gray;
     cursor: pointer;
 }
 
 .area-Entrevistas {
     padding: 20px 120px;
-    background:  rgb(189, 189, 189);
+    background: rgb(189, 189, 189);
 
 }
 
@@ -396,7 +399,7 @@ h4 {
     padding: 3px 10px;
 
     font-size: 0.8rem;
-    background-color: rgb(95, 89, 89);
+    background-color: rgb(122, 116, 116);
     color: white;
 
     border-radius: 100px;
@@ -404,6 +407,7 @@ h4 {
 
 
 .novidades-info .novidades .posts-novidades .post .post-desc .post-tags .tags:hover {
+    cursor: pointer;
     background-color: rgb(100, 95, 95);
 }
 
