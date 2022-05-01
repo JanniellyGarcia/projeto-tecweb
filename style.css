@@ -8,7 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* C6C5C6 */
 header {
     background: #BFBFBF;
     display: flex;
@@ -89,40 +89,43 @@ nav {
 }
 
 .list-bars li {
-    padding-left: 10px;
+    display: inline;
     padding-right: 10px;
 }
 
 .list-bars li:not(:first-child) {
     border-left: 1.5px solid black;
+    padding-left: 10px;
 }
 
 .lancamentos {
     background-color: #EEEEEE;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .lancamentos h1 {
     text-align: center;
-    /* padding: 40px 0; */
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .lancamentos .content-desc {
     display: flex;
-    align-items: center;
     margin: 0 20px;
     justify-content: space-between;
     gap: 30px;
 }
 
 .lancamentos .area-filme {
-    width: 50%;
+    flex-basis: 50%;
     justify-content: flex-start;
-    border: 10px solid green;
 }
 
-.area-filme img {
+.lancamentos .area-filme iframe {
+    min-height: 50vh;
     width: 100%;
-    height: 300px;
 }
 
 section {
@@ -132,21 +135,35 @@ section {
 .lancamentos .area-descricao {
     width: 50%;
     justify-content: flex-end;
-    border: 10px solid green;
 }
 
-.desc-diretor ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
+.desc-avaliacao-star-on,
+.desc-avaliacao-star-off {
+    height: .9375rem;
 }
 
-.desc-elenco ul {
+.dots {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.dots .dot {
+    height: .5rem;
+}
+
+.area-descricao .desc-sinopse h4 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/* .desc-diretor ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 10px 0;
+} */
+
+.desc-diretor ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 .avaliacao {
@@ -155,6 +172,21 @@ section {
     width: 100%;
     padding: 20px 120px;
     border: 5px solid blue;
+}
+
+.desc-sinopse h4 {
+    margin-bottom: 20px;
+}
+
+.desc-diretor,
+.desc-elenco,
+.desc-avaliacao {
+    margin-top: 20px;
+}
+
+.desc-elenco>p,
+.desc-avaliacao>p {
+    margin-bottom: 20px;
 }
 
 .area-ava {
