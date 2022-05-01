@@ -60,10 +60,10 @@
       </a>
     </th>
     <th>
-      <a href="https://github.com/Netosouza1">
-        <img src="https://avatars.githubusercontent.com/Netosouza1" width="115"><br><br>
+      <a href="https://github.com/Netosouza22">
+        <img src="https://avatars.githubusercontent.com/Netosouza22" width="115"><br><br>
         <p align="center">
-            <a href="https://github.com/Netosouza1" target="_blank">
+            <a href="https://github.com/Netosouza22" target="_blank">
                 <img 
                     src="https://img.shields.io/badge/Netosouza1-100000?style=flat-square&logo=github&logoColor=white" 
                     alt="Netosouza1"
