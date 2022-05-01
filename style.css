@@ -10,11 +10,48 @@ body {
 }
 
 header {
-    background: grey;
+    background: #BFBFBF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 10px 120px;
+}
+
+header .search {
+    position: relative;
+}
+
+header .search .search-icon {
+    position: absolute;
+    z-index: 9999;
+    height: 12px;
+    margin-top: 5.6%;
+    margin-left: 10px;
+}
+
+header .search .close-icon {
+    position: absolute;
+    z-index: 9999;
+    height: 12px;
+    margin-top: 5.6%;
+    right: 0;
+    margin-right: 10px;
+}
+
+header .search input[type=text] {
+    padding: 10px 30px;
+    background-color: #BFBFBF;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+header .search input[type=text]::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+header .search input[type=text]:focus {
+    outline: none;
 }
 
 /* .d-flex{
@@ -36,12 +73,32 @@ nav {
     padding: 5px 20px;
 }
 
-.nav-menu li {
+.nav-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.list-bars,
+.list-bars ul,
+.list-bars ol {
+    list-style: none;
+}
+
+.list-bars li {
+    padding-left: 10px;
     padding-right: 10px;
 }
 
+.list-bars li:not(:first-child) {
+    border-left: 1.5px solid black;
+}
+
 .lancamentos {
-    background-color: rgb(189, 189, 189);
+    background-color: #EEEEEE;
 }
 
 .lancamentos h1 {
@@ -317,7 +374,8 @@ footer {
     padding: 40px 120px;
 }
 
-footer .logo-footer {
+footer .logo-footer,
+.logo {
     border: 1px solid black;
     padding: 10px 30px;
 }
