@@ -15,19 +15,23 @@
             LOGO
         </div>
         <nav>
-            <ul class="nav-menu">
-                <li>lançamentos |</li>
-                <li>em destaque |</li>
-                <li>avaliações |</li>
-                <li>entrevistas & makingof |</li>
-                <li>novidades </li>
+            <ul class="nav-menu list-bars">
+                <li><a href="#lancamentos">lançamentos</a></li>
+                <li><a href="#destaque">em destaque</a></li>
+                <li><a href="#avaliacao">avaliações</a></li>
+                <li><a href="#">entrevistas & makingof</a></li>
+                <li><a href="#novidades">novidades</a></li>
             </ul>
-            <input type="text" name="search">
+            <div class="search">
+                <img src="assets/icons/magnifying-glass-solid.svg" alt="Simbolo de lupa" class="search-icon">
+                <input class="" type="text" name="search" placeholder="Pesquisar filme">
+                <img src="assets/icons/circle-xmark-regular.svg" alt="Simbolo de fechar (x)" class="close-icon">
+            </div>
         </nav>
     </header>
 
     <!-- LANÇAMENTOS -->
-    <section class="lancamentos">
+    <section id="lancamentos" class="lancamentos">
         <h1>Lançamentos</h1>
         <section class="content-desc">
             <div class="area-filme">
@@ -109,7 +113,7 @@
     </section>
 
     <!-- ULTIMAS AVALIAÇÕES -->
-    <section class="avaliacao">
+    <section id="avaliacao" class="avaliacao">
         <h1>Ultimas Avaliações</h1>
         <section class="area-ava">
 
@@ -172,7 +176,7 @@
         </div>
     </section>
     <!-- ULTIMAS AVALIAÇÕES -->
-    <section class="novidades-info">
+    <section id="novidades" class="novidades-info">
         <section class="novidades">
             <h1>Novidades</h1>
             <section class="posts-novidades">
